@@ -152,7 +152,34 @@ footer{
     padding:20px;
     margin-top:30px;
 }
+.contact-info{
+    margin-bottom:25px;
+}
 
+.contact-info p{
+    margin:10px 0;
+}
+
+.contact-info a{
+    color:#00bcd4;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.contact-info a:hover{
+    text-decoration:underline;
+}
+
+form input,
+form textarea{
+    transition:0.3s;
+}
+
+form input:focus,
+form textarea:focus{
+    outline:none;
+    border:2px solid #00bcd4;
+}
 @media (max-width:1024px){
 
     section{

@@ -160,22 +160,70 @@
 </section>
 
 <section id="contact">
+
     <h2>Contact Me</h2>
 
-    <form>
+    <p>
+        Feel free to contact me for internships, collaborations,
+        or freelance opportunities.
+    </p>
 
-        <label>Name</label><br>
-        <input type="text" required><br><br>
+    <div class="contact-info">
 
-        <label>Email</label><br>
-        <input type="email" required><br><br>
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:maiyshah6@gmail.com">
+                maiyshah6@gmail.com
+            </a>
+        </p>
 
-        <label>Message</label><br>
-        <textarea rows="5" required></textarea><br><br>
+        <p>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/ash255-boop" target="_blank">
+                github.com/ash255-boop
+            </a>
+        </p>
 
-        <button type="submit">Send</button>
+        <p>
+            <strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/aiyshah-meerab-68a105417/" target="_blank">
+                LinkedIn Profile
+            </a>
+        </p>
+
+    </div>
+
+    <form id="contactForm">
+
+        <label for="name">Name</label><br>
+        <input
+            type="text"
+            id="name"
+            placeholder="Enter your name"
+            required
+        ><br><br>
+
+        <label for="email">Email</label><br>
+        <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+        ><br><br>
+
+        <label for="message">Message</label><br>
+
+        <textarea
+            id="message"
+            rows="5"
+            placeholder="Write your message..."
+            required
+        ></textarea><br><br>
+
+        <button type="submit">Send Message</button>
 
     </form>
+
 </section>
 <section id="resume">
 

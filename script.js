@@ -1,7 +1,7 @@
 const hireButton = document.querySelector("#home button");
 
 hireButton.addEventListener("click", function () {
-    alert("Thank you for your interest!");
+    alert("Thank you for visiting my portfolio!");
 });
 
 const topButton = document.getElementById("topBtn");
@@ -22,5 +22,26 @@ topButton.addEventListener("click", function () {
         top: 0,
         behavior: "smooth"
     });
+
+});
+
+const contactForm = document.getElementById("contactForm");
+
+contactForm.addEventListener("submit", function(event){
+
+    event.preventDefault();
+
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const message = document.getElementById("message").value.trim();
+
+    if(name === "" || email === "" || message === ""){
+        alert("Please fill in all fields.");
+        return;
+    }
+
+    alert("Thank you! Your message has been received.");
+
+    contactForm.reset();
 
 });
