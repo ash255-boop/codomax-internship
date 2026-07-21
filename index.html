@@ -4,48 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Home Section -->
-    <section id="home">
+<header>
+    <nav>
+        <h2>Portfolio</h2>
 
-        <h1>Hello, I'm Aiyshah</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-        <p>
-            Computer Science Student | Web Developer | Problem Solver
-        </p>
+<section id="home">
+    <h1>Hello, I'm Aiyshah</h1>
 
-        <button>Hire Me</button>
+    <p>
+        Computer Science Student | Frontend Developer | Problem Solver
+    </p>
 
-    </section>
+    <button>Hire Me</button>
+</section>
 
+<section id="hero">
+    <img src="images/profile.jpg" alt="Profile Picture" width="250">
+</section>
 
-    <!-- Hero Section -->
+<section id="about">
+    <h2>About Me</h2>
 
-    <section id="hero">
+    <p>
+        I am a Computer Science student passionate about web development,
+        programming, and creating modern websites. I enjoy learning new
+        technologies and building real-world projects.
+    </p>
+</section>
 
-        <img src="images/profile.jpg" alt="Profile Picture" width="250">
+<section id="skills">
+    <h2>Skills</h2>
 
-    </section>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>C++</li>
+        <li>React</li>
+        <li>Git & GitHub</li>
+    </ul>
+</section>
 
+<section id="education">
+    <h2>Education</h2>
 
-    <!-- About Section -->
+    <h3>BS Computer Science</h3>
 
-    <section id="about">
+    <p>
+        National University of Computer and Emerging Sciences (FAST-NUCES)
+    </p>
 
-        <h2>About Me</h2>
+    <p>Expected Graduation: 2028</p>
+</section>
 
-        <p>
-            I am a Computer Science student passionate about web development,
-            programming, and creating modern websites. I enjoy learning new
-            technologies and building real-world projects.
-        </p>
+<section id="contact">
+    <h2>Contact Me</h2>
 
-    </section>
+    <form>
+        <label>Name</label><br>
+        <input type="text" required><br><br>
+
+        <label>Email</label><br>
+        <input type="email" required><br><br>
+
+        <label>Message</label><br>
+        <textarea rows="5"></textarea><br><br>
+
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2026 Aiyshah. All Rights Reserved.</p>
+</footer>
 
 <script src="script.js"></script>
 
